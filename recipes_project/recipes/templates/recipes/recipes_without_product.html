@@ -1,0 +1,15 @@
+<!-- recipes/templates/recipes/recipes_without_product.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipes without Product</title>
+</head>
+<body>
+    <h1>Recipes without Product</h1>
+    <ul>
+        {% for recipe in recipes %}
+            <li>{{ recipe.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
